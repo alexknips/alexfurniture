@@ -1,0 +1,74 @@
+baseURL: https://eternity.bora.sh # todo: change site url.
+title: Alexander Knips Furniture # todo: change site name.
+defaultContentLanguage: "en"
+theme: eternity
+googleAnalytics: "" # todo: set your analytics id.
+
+params:
+  image: /images/logo.png
+  logo: logo.png # todo: add your custom logo to static/
+  subtitle: We build custom furniture in the bay area. # todo: change default subtitle for your website.
+  copyright: All rights reserved. # todo: set your copyright type.
+  author: Desiree Gomez-Knips & Alexander Knips # todo: set your full name.
+  dontShowSource: false # please, do not do this :)
+  portfolio:
+    columns:
+      desktop:
+        nature: 4
+        archive: 6
+        people: 2
+        default: 3
+      mobile:
+        default: 2
+        archive: 3
+        people: 1
+  socials:
+    # todo: change these links.
+    - icon: "far fa-envelope fa-lg"
+      url: "mailto:alex.knips@gmail.com"
+      landing: true
+    - icon: "fab fa-instagram fa-lg"
+      url: "https://www.instagram.com/alexander.knips"
+  homepage: "/work" # homepage link, mostly same with menu.main[0]
+  specialPages:
+    - work
+    - archive
+  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
+  disableWelcomePageBackground: true # disables the background image on the homepage
+  plausible: "" # todo: set your plausible id.
+  disableRadius: false
+  moveIt: false # Moves Title and Meta info down, only visible when scroll.
+  disableAlwaysResize: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  work: ":filename/"
+
+menu:
+  main:
+    - name: work
+      url: /work/
+      weight: 1
+    - name: nightstand
+      url: /tags/nightstand/
+      weight: 2
+    - name: bed
+      url: /tags/bed/
+      weight: 3
+    - name: weddingbox
+      url: /tags/weddingbox/
+      weight: 4
+    - name: archive
+      url: /tags/archive/
+      weight: 5
+    - name: about
+      url: /about/
+      weight: 6

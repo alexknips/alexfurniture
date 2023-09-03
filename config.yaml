@@ -7,7 +7,7 @@ googleAnalytics: "" # todo: set your analytics id.
 params:
   image: /images/logo.png
   logo: logo.png # todo: add your custom logo to static/
-  subtitle: My recent wood working projects # todo: change default subtitle for your website.
+  subtitle: My recent wood-working projects # todo: change default subtitle for your website.
   copyright: All rights reserved. # todo: set your copyright type.
   author: Desiree Gomez-Knips & Alexander Knips # todo: set your full name.
   dontShowSource: false # please, do not do this :)

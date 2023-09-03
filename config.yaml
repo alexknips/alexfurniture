@@ -66,9 +66,12 @@ menu:
     - name: weddingbox
       url: /tags/weddingbox/
       weight: 4
+    - name: capabilities
+      url: /tags/capabilities/
+      weight: 6
     - name: archive
       url: /tags/archive/
-      weight: 5
+      weight: 7
     - name: about
       url: /about/
-      weight: 6
+      weight: 8

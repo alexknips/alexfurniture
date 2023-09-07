@@ -9,5 +9,7 @@ url: work
 	</p>
 	<p>
 		Happy to help you out as well. Please reach out to me through email or socials (upper right corner).
+		I have a group buy going on that you might wanna take a look at -> https://forms.gle/Szg4JWNevFUxxCFx7.
+		Please check it out. Pictures are in the Google Form.
 	</p>
 </div>
